@@ -1,0 +1,142 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500;600&display=swap');;
+
+
+
+/* Global */
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Kanit, sans-serif";
+    line-height: 1.5rem;
+} 
+
+/* Container */
+
+.container {
+    width: 100%;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+/* NavBar */
+
+.nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+.nav-container {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-logo {
+    display: flex;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-menu-parent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0;
+}
+.nav-menu-items {
+    list-style: none;
+    padding-left: 0 ;
+    margin-left: 4rem;
+    font-size: 1.4rem;
+    align-items: center;
+    text-align: center;
+ }
+.nav-menu-items:first-child {
+    margin-left: 0;
+}
+.menu-link:hover {
+    color: rgba(156, 124, 124, 0.304);
+}
+.menu-link {
+    text-decoration: none;
+    color: inherit;
+}
+.btn-nav{
+    display: flex;
+    margin-left: 2rem;
+}
+.btn{
+    font-size: 1.4rem;
+    color: #fff;
+    border-radius: 4rem;
+    cursor: pointer;
+    border: none;
+    margin-left: 2rem;
+    transition: all 500ms ease-in;
+    box-shadow: 0 0.5rem 1rem #0abead26;
+}
+
+.link-style {
+    text-decoration: none; /* Remove the underline */
+    color: inherit; /* Change the link color if needed */
+    
+  }
+.btn:hover {
+    transform: scale(1.04,1.05);
+}
+
+/* TaskApp */
+
+
+.create__task {
+  max-width: 400px;
+  margin: 2rem auto;
+  text-align: center;
+}
+.create__task label {
+  text-align: left;
+  display: block;
+}
+.create__task h2 {
+  font-size: 20px;
+  color: #0ABEAD;
+  margin-bottom: 30px;
+}
+.create__task input, .create__task textarea, .create__task select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #0ABEAD;
+  border-radius: 10px;
+  background-color: #e2fffd;
+  box-sizing: border-box;
+  display: block;
+}
+.create__task button {
+  background: #0ABEAD;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
